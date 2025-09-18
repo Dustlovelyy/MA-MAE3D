@@ -1,18 +1,15 @@
-# Project Title
-> Short one-line description of the project.
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) 
-[![PyPI](https://img.shields.io/pypi/v/your-package)](https://pypi.org/project/your-package) 
-[![CI](https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/<repo>/actions) 
-[![arXiv](https://img.shields.io/badge/arXiv-YYMM.NNNNN-b31b1b.svg)](https://arxiv.org/abs/YYMM.NNNNN)
-
-> Short demo / TL;DR:
-> - What it does (1–2 bullets)
-> - Key claims (speed / accuracy / novelty)
+# Memory Augmented-based MAE3D Network(MA-MAE3D)
+> MA-MAE3D is designed to reconstruct complete geometries from incomplete observations, thereby facilitating downstream tasks such as classification, segmentation, and 3D object detection.
+> 
+> Key words:   Point Cloud Completion (PCC), Pretraining–Finetuning, Masked Autoencoder, Memory Network
+> 
+> Background:
+> - The pretraining–finetuning paradigm is widely adopted in deep learning, as it can provide abundant transferable knowledge.
+> - However, applying this paradigm to PCC is challenging due to the domain shift between the inputs used in the pretraining and finetuning stages. 
 
 ---
 
-## Table of Contents
+## Table of Contents(constanting)
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
@@ -30,27 +27,9 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
----
-
-## Demo
-<!-- Put a short GIF or image showing the result. Example: -->
-![demo](docs/demo.gif)
-> Interactive demo / playground: https://your-demo-url.example.com
-
----
-
-## Features
-- ✅ End-to-end pipeline for **point-cloud completion / reconstruction** (example)
-- ✅ Supports input: partial point clouds / depth maps / multi-view images
-- ✅ Training, inference, evaluation scripts
-- ✅ Config-driven experiments (YAML/JSON)
-- ✅ Checkpointing, logging (TensorBoard / Weights & Biases)
-- ✅ Export to ONNX / TorchScript for deployment
-
----
 
 ## Installation
-
+Will be public when MA-MAE3D is accecpted.
 ### Requirements
 Tested on: `Ubuntu 20.04`, `Python 3.9+`
 
