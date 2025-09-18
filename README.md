@@ -8,8 +8,9 @@
 > - However, applying this paradigm to PCC is challenging due to the domain shift between the inputs used in the pretraining and finetuning stages. 
 
 ---
+The following detiled information will be made public when MA-MAE3D is accepted.
 
-## Table of Contents(constanting)
+## Table of Contents(TBD)
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
@@ -29,7 +30,7 @@
 
 
 ## Installation
-Will be public when MA-MAE3D is accecpted.
+(TBD)
 ### Requirements
 Tested on: `Ubuntu 20.04`, `Python 3.9+`
 
